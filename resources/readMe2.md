@@ -10,4 +10,14 @@ fs.readFile('/etc/passwd', (err, data) => {
     if (err) throw err;
     exports.data = data;                            // Will not work.
 });
+---------------------------------------------------------------------------------------
+
+There is nothing special about require. 
+It’s an object 
+    that acts as a function 
+    that takes a module name or path 
+    and returns the module.exports object. 
+We can simply override the require object with our own logic
+---------------------------------------------------------------------------------------
+
 
