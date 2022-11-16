@@ -1,0 +1,20 @@
+Module {
+  id: '<repl>',
+  path: '.',
+  exports: {},
+  filename: null,
+  loaded: false,
+  children: [],
+  paths: [
+    '/home/vsspl/Desktop/backEnd/nodeModule23/repl/node_modules',
+    '/home/vsspl/Desktop/backEnd/nodeModule23/node_modules',
+    '/home/vsspl/Desktop/backEnd/node_modules',
+    '/home/vsspl/Desktop/node_modules',
+    '/home/vsspl/node_modules',
+    '/home/node_modules',
+    '/node_modules',
+    '/home/vsspl/.node_modules',
+    '/home/vsspl/.node_libraries',
+    '/home/vsspl/.nvm/versions/node/v16.10.0/lib/node'
+  ]
+}
