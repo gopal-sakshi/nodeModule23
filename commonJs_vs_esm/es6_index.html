@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>using ES6 in browsers</title>
+    </head>
+    <body>
+        <h3>this is first element in body</h3>
+
+        <!-- APPROACH I -->
+        <script type="module">
+            import { jingChak1 } from './es6_index1.js'          
+            const h1Element = jingChak1('h3', 'Ancelotti!')
+            document.body.appendChild(h1Element)
+        </script>
+
+        <!-- APPROACH II -->
+        <script type="module" src="es6_index2.js">            
+        </script>
+    </body>
+</html>

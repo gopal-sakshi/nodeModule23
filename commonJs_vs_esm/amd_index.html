@@ -1,0 +1,17 @@
+<html>
+    <head>learning AMD module thingy</head>
+    <!--- LATERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR -->
+                <!---- not working ----------------->
+    <body>
+        <script src="amd23.js" ></script>
+        <script>
+            require( ["app/counter" ], function(counter) {
+                log(counter.getValue());
+                counter.increment();
+                log(counter.getValue());
+                counter.decrement();
+                log(counter.getValue());
+            });
+        </script>
+    </body>
+</html>
