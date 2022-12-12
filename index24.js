@@ -13,14 +13,7 @@ In Index24  Module {
     filename: '/home/vsspl/Desktop/backEnd/nodeModule23/index24.js',
     loaded: false,
     children: [],
-    paths: [
-        '/home/vsspl/Desktop/backEnd/nodeModule23/node_modules',
-        '/home/vsspl/Desktop/backEnd/node_modules',
-        '/home/vsspl/Desktop/node_modules',
-        '/home/vsspl/node_modules',
-        '/home/node_modules',
-        '/node_modules'
-    ]
+    paths: [ ...somePaths ]
 }
 
 

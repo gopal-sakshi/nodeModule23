@@ -3,7 +3,5 @@ const printInFrame = (size, header) => {
     console.log(header);
     console.log('*'.repeat(size));
 };
-
-// HOW TO RUN ======> node printInFrame 8 Hello
-
-// https://www.freecodecamp.org/news/scaling-node-js-applications-8492bd8afadc/
+printInFrame(process.argv[2], process.argv[3]);
+// HOW TO RUN ======> node index29.js 8 Hello

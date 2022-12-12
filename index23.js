@@ -12,15 +12,7 @@ console.log('In index', module);
         filename: '/home/vsspl/Desktop/backEnd/nodeModule23/lib23/find48.js',
         loaded: false,
         children: [],
-        paths: [
-            '/home/vsspl/Desktop/backEnd/nodeModule23/lib23/node_modules',
-            '/home/vsspl/Desktop/backEnd/nodeModule23/node_modules',
-            '/home/vsspl/Desktop/backEnd/node_modules',
-            '/home/vsspl/Desktop/node_modules',
-            '/home/vsspl/node_modules',
-            '/home/node_modules',
-            '/node_modules'
-        ]
+        paths: [...somePaths]
     }
 
 
@@ -41,14 +33,7 @@ console.log('In index', module);
             paths: [Array]
             }
         ],
-        paths: [
-            '/home/vsspl/Desktop/backEnd/nodeModule23/node_modules',
-            '/home/vsspl/Desktop/backEnd/node_modules',
-            '/home/vsspl/Desktop/node_modules',
-            '/home/vsspl/node_modules',
-            '/home/node_modules',
-            '/node_modules'
-        ]
+        paths: [...somePaths]
     }
 
 
