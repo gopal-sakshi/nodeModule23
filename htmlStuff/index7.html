@@ -1,0 +1,33 @@
+<html>
+<head>
+    <!-- APPROACH I =====> does not work -->
+    <!-- <script type="module" src="../html_resources/js_css/index7.js"></script> -->
+
+    <!-- APPROACH II =====> WORKS -->
+    <script type="module">
+        import { greet23 } from "../html_resources/js_css/index7.js";
+        window.greetFromModule = greet23;
+    </script>
+
+    <!-- APPROACH III =====> add stuff to emptyObject instead of window Object -->
+    <script>
+        const module23 = {}         // adding module23 @ global level
+    </script>
+    <script type="module">
+        // const module23 = {};           // because its type="module", you cant add module23 here itself
+        import { greet24 } from "../html_resources/js_css/index7.js";
+        module23.greet24 = greet24;
+    </script>
+</head>
+
+<body>
+    <button onclick="greetFromHtml();">greetFromHtml</button>
+    <button onclick="greetFromModule()"> greetFromModule</button>
+    <button onclick="module23.greet24()">emptyObj greet</button>
+
+    <script type="text/javascript">
+        function greetFromHtml(){ alert('Hello'); }
+    </script>
+
+</body>
+</html>
