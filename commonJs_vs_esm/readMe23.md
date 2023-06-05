@@ -102,4 +102,10 @@ If you are writing an application that will run both in Node.js & in browser
 
 So, change the configuration object
     { module: "commonjs" } or { module: "umd" }
+-----------------------------------------------------------------------------------------------------
+
+If you are using Node.js modules, __dirname and __filename don't exist.
+From the Node.js documentation:
+No require, exports, module.exports, __filename, __dirname
+These CommonJS variables are not available in ES modules.
 --------------------------------------------------------------------------------------------------------
